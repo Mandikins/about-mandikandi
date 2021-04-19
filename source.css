@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Pompiere&family=Reenie+Beanie&family=Sue+Ellen+Francisco&display=swap");
+
 body {
   /* padding: 25%, 25%; */
+  display: inline-block;
   height: 100%;
   background-image: url("./images/miku-Background.jpg");
   background-color: rgb(1, 119, 131);
@@ -12,12 +14,12 @@ body {
 /*keeps the second list in its section*/
 .sub-list-container {
   text-align: justify;
-  margin-top: 40%;
-  width: 50%;
+  width: 49%;
 }
 
 section {
-  margin: 10%;
+  margin-left: 150px;
+  width: 79%;
 }
 
 .img-section {
@@ -31,24 +33,25 @@ section {
   background-color: rgb(134, 70, 255);
   text-align: center;
   border-radius: 20px;
-  height: 10%;
+  height: 125px;
   width: 600px;
+  margin: none;
 }
 
 /*clear box*/
 .boxclear {
   margin: 10%;
   background-color: rgba(135, 70, 255, 0);
-  height: 80px;
+  height: 150px;
   width: 600px;
 }
 
 /*clear box for conting text*/
 .boxcleartxt {
-  margin: 0%;
+  margin: none;
   text-align: justify;
   background-color: rgba(135, 70, 255, 0);
-  height: 80px;
+  height: 150px;
   width: 600px;
 }
 
@@ -99,8 +102,9 @@ p {
 }
 
 .about-section-container {
-  height: 300px;
   width: 100%;
+  margin: auto;
+  height: 500px;
 }
 
 /*lists formatting*/
@@ -155,7 +159,8 @@ li {
 /*keeping lists scetion in a container*/
 .ordered-list-container {
   width: 25%;
-  height: 100%;
+  height: 250px;
+  margin-bottom: -100px;
 }
 
 .secondary-h3 {
@@ -163,7 +168,7 @@ li {
 }
 
 #middle-section-box-clear {
-  margin-bottom: 18%;
+  height: 500px;
 }
 
 /*Colors of links and their reactions formatting*/
