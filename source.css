@@ -19,8 +19,10 @@ section {
   margin: 10%;
 }
 
-myimgsection {
-  margin: 14%;
+.img-section {
+  margin: 12%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .box {
