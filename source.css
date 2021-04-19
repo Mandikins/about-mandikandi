@@ -3,7 +3,7 @@ body {
   /* padding: 25%, 25%; */
   height: 100%;
   background-color: rgb(1, 119, 131);
-  background: url(/images/miku-Background.jpg);
+  background-image: url(/images/miku-Background.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
