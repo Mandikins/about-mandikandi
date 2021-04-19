@@ -9,9 +9,11 @@ body {
   background-size: cover;
 }
 
+/*keeps the second list in its section*/
 .sub-list-container {
-  margin-top: 5%;
-  width: 40%;
+  text-align: justify;
+  margin-top: 40%;
+  width: 50%;
 }
 
 section {
@@ -24,6 +26,7 @@ section {
   margin-bottom: 5%;
 }
 
+/*Visible box around the Title*/
 .box {
   background-color: rgb(134, 70, 255);
   text-align: center;
@@ -32,6 +35,7 @@ section {
   width: 600px;
 }
 
+/*clear box*/
 .boxclear {
   margin: 10%;
   background-color: rgba(135, 70, 255, 0);
@@ -39,6 +43,7 @@ section {
   width: 600px;
 }
 
+/*clear box for conting text*/
 .boxcleartxt {
   margin: 0%;
   text-align: justify;
@@ -69,11 +74,25 @@ h3 {
   font-family: "Amatic SC", cursive;
 }
 
+h4 {
+  font-family: "Amatic SC", cursive;
+}
+
+h5 {
+  font-family: "Amatic SC", cursive;
+}
+
+h6 {
+  font-family: "Amatic SC", cursive;
+}
+
 p {
   font-size: 32px;
   font-weight: 600;
   font-family: "Pompiere", cursive;
 }
+
+/*makes sure section of text is justified for formality*/
 .about-section {
   text-align: justify;
   line-height: 40px;
@@ -84,6 +103,7 @@ p {
   width: 100%;
 }
 
+/*lists formatting*/
 ul {
   color: rgb(0, 35, 44);
   font-family: "Pompiere", cursive;
@@ -98,6 +118,7 @@ li {
   font-size: 28px;
 }
 
+/* This controls the footer navagation bar*/
 .navbar {
   width: 100%;
   background-color: rgb(27, 0, 70);
@@ -122,6 +143,16 @@ li {
   background-color: rgb(134, 70, 255);
 }
 
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/*keeping lists scetion in a container*/
 .ordered-list-container {
   width: 25%;
   height: 100%;
@@ -135,11 +166,16 @@ li {
   margin-bottom: 18%;
 }
 
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
+/*Colors of links and their reactions formatting*/
+a:link {
+  color: rgb(77, 255, 201);
+}
+a:visited {
+  color: rgb(134, 70, 255);
+}
+a:link:hover {
+  color: #f15bb5;
+}
+a:visited:hover {
+  color: #f7aef8;
 }
