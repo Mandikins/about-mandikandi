@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Pompiere&family=Reenie+Beanie&family=Sue+Ellen+Francisco&display=swap");
-
 body {
   /* padding: 25%, 25%; */
   height: 100%;
   background-color: rgb(1, 119, 131);
-  background-image: url(../images/miku-Background.jpg);
+  background: url(/images/miku-Background.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
